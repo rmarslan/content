@@ -56,6 +56,18 @@ const y = ++x;
 // y = 4
 ```
 
+The increment operator is not same as doing x = x + 1 you can undersatnd that by the following example
+
+```js
+let x = "3";
+x = x + 1
+console.log(x) // 31
+
+x = "3"
+x++
+console.log(x) // 4
+```
+
 ## Specifications
 
 {{Specifications}}
